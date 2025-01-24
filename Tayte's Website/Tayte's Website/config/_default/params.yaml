@@ -1,0 +1,116 @@
+# SITE SETUP
+
+# Appearance
+
+appearance:
+  theme_day: moneygreen
+  theme_night: moneygreen
+  font: t8
+  font_size: M
+
+# SEO
+
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: ''
+    description: 'Tayte Choudhury is currently a freshman at Texas A&M University. He was a 2022 National Security Language Initiative for Youth Scholar who studied at the Jeonju Shinheung High School in South Korea. Tayte’s interest lie largely in the STEM field and music field. In the Summer of 2022, he was invited to play at Carnegie Hall in New York as well as won the Grand Prize in the American Protege International Piano Competition.'
+    twitter: ''
+  analytics:
+    google_analytics: ''
+    baidu_tongji: ''
+  verification:
+    google: ''
+    baidu: ''
+
+# Site header
+
+header:
+  navbar:
+    enable: true
+    align: r
+    show_logo: true
+    show_language: true
+    show_day_night: true
+    show_search: true
+    highlight_active_link: true
+
+# Site footer
+
+footer:
+  copyright:
+    notice: '© 2023 Tayte Choudhury'
+    license:
+      enable: false
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: true
+
+# Localization
+
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+  address_format: en-us
+
+# Site features
+
+features:
+  syntax_highlighter:
+    theme_light: github-light
+    theme_dark: dracula
+  math:
+    enable: true
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'https://github.com/<username>/<repository>'
+    content_dir: content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: 'mapnik'
+    api_key: ''
+    zoom: 15
+  content:
+    coordinates:
+    latitude: '95.6226'
+    longitude: '29.5984'
+
+
+# Extensions
+
+extensions:
+  cms:
+    branch: main
+    local_backend: false
+  academicons:
+    enable: true
+
+# Security
+
+security:
+  # Allow frame for embedding speaker notes in slides
+  allow_frame: true

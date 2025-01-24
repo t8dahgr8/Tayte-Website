@@ -1,0 +1,44 @@
+# Theme metadata
+name = "burgundy" 
+
+[light]
+  # Primary
+  
+  #Primary sets insta logo color in projects section and background sets the background of those pages
+  primary = "#800020"
+  background = "#ECEFF4"
+  
+  link = "#800020"
+  link_hover = "#000000"
+  
+  # Menu
+  menu_primary = "#800020"
+  menu_text = "#FFFFFF"
+  menu_text_active = "#F6CBB7"
+  menu_title = "#81A1C1"
+
+  # Home sections (Note that the first section with bio is odd)
+  home_section_odd =  "#FAF9F6"
+  home_section_even = "#f8f0e3"
+
+[dark]
+  # Primary
+  
+  
+    #Primary sets insta logo color in projects section and background sets the background of those pages
+  primary = "#A31F34"
+  background = "#303030"
+
+  link = "#800020"
+  link_hover = "#FFFFFF"
+  
+  # Menu
+  menu_primary = "#800020"
+  menu_text = "#FFFFFF"
+  menu_text_active = "#F6CBB7"
+  menu_title = "#81A1C1"
+  
+  # Home sections (Note that the first section with bio is odd)
+  home_section_odd = "#303030"
+  home_section_even = "#383838"
+

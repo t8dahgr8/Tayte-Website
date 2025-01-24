@@ -1,0 +1,18 @@
+{
+  "name": "Tayte Choudhury",
+  "short_name": "Tayte Choudhury",
+  "lang": "en-us",
+  "theme_color": "#00C805",
+  "background_color": "#00C805",
+  "icons": [{
+    "src": "/media/icon_hue6c15a715d9f9a1078a37ecf685b8f5c_1299_192x192_fill_lanczos_center_3.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }, {
+    "src": "/media/icon_hue6c15a715d9f9a1078a37ecf685b8f5c_1299_512x512_fill_lanczos_center_3.png",
+    "sizes": "512x512",
+    "type": "image/png"
+     }],
+  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest"
+}
